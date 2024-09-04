@@ -39,7 +39,7 @@ class División(Calculadora):
             return "Ingrese un número diferente de cero"
 
 num1= float(input("Ingresa el primer número: "))
-signo =input("Ingrese un operador: ")
+signo =input("Ingrese un operador +-*/: ")
 num2= float(input("Ingresa un segundo número: "))
 if signo=="+":
     resultado= Suma(num1,num2)
